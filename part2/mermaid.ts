@@ -8,7 +8,7 @@ import { map, is } from "ramda";
 import { isSExp, SExpValue, isEmptySExp, isCompoundSExp, isSymbolSExp } from "./L4-value";
 import { isString, isNumber, isBoolean, isArray } from "../shared/type-predicates";
 import { parse } from "../shared/parser";
-
+ 
 
 //makeVarGen Generator
 const makeVarGen = (): (v: string) => string => {
