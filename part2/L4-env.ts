@@ -1,6 +1,6 @@
 // Environment for L4 (support for Letrec)
 // =======================================
-// An environment represents a partial function from symbols (variable names) to values.
+// An environment represents a partial function from symbols (variable names) to values. 
 // It supports the operation: apply-env(env,var)
 // which either returns the value of var in the environment, or else throws an error.
 //
