@@ -44,7 +44,7 @@ export const isDir = (x: any): x is Dir => x.tag === "Dir";
 export const isEdge = (x: any): x is Edge => x.tag === "Edge";
 export const isNodeDecl = (x: any): x is NodeDecl => x.tag === "NodeDecl";
 export const isNodeRef = (x: any): x is NodeRef => x.tag === "NodeRef";
-export const isEdgeLabel = (x: any): x is EdgeLabel => x.tag === "EdgeLabel";
+export const isEdgeLabel = (x: any): x is EdgeLabel => x.tag === "EdgeLabel"; 
 
 export const isGraphContent = (x: any): x is GraphContent => isAtomicGraph(x) || isCompoundGraph(x);
 export const isAtomicGraph = (x: any): x is AtomicGraph => isNodeDecl(x);
